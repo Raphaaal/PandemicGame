@@ -1,20 +1,25 @@
 # PandemicGame
 GUI and multiple symbolic AI to play the Pandemic game.
 
+----------------------
 Project contributors:
 TRAN Stanislas
 LAMRANI ALAOUI Ayoub
 AZORIN Raphaël
 
+----------------------
 Package project:
-Run ​ mvn package ​ at the root of the project.
+Run mvn package at the root of the project.
 
+----------------------
 Launch project (GUI):
-After having packaged the project, run ​ mvn exec:java ​
+After having packaged the project, run mvn exec:java
 
+----------------------
 Launch project (CLI):
-Run ​ java -jar pandemiage-1.0-SNAPSHOT-jar-with-dependencies.jar ​ for default options.
+Run java -jar pandemiage-1.0-SNAPSHOT-jar-with-dependencies.jar for default options.
 
+----------------------
 Options:
 
 -a JARFILE -d DIFFICULTY -g CITYGRAPH -t TURNDURATION -s HANDSIZE
@@ -37,4 +42,4 @@ HANDSIZE :
 maximum number of cards a player can hold. Default : 9.
 
 Documentation (in French):
-Refer to ​ user.pdf ​ , ​ dev.pdf ​ and experimentation.pdf ​ located in the ​ docs ​ directory.
+Refer to user.pdf, dev.pdf and experimentation.pdf located in the docs directory.
